@@ -10,7 +10,10 @@
   <modules>
     <module>cloud-api-commons</module>
     <module>cloud-provider-payment8001</module>
+    <module>cloud-provider-payment8002</module>
     <module>cloud-consumer-order80</module>
+    <module>cloud-eureka-server7001</module>
+    <module>cloud-eureka-server7100</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -50,7 +53,6 @@
     <type>pom</type>
     <scope>import</scope>
   </dependency>
-
     <dependency>
       <groupId>org.mybatis.spring.boot</groupId>
       <artifactId>mybatis-spring-boot-starter</artifactId>

@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -23,7 +23,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    instance-id: payment8001
+    instance-id: payment8002
     prefer-ip-address: true
     lease-expiration-duration-in-seconds: 2
     lease-renewal-interval-in-seconds: 1
